@@ -1,5 +1,9 @@
 # En este archivo se correra el modelito econometrico de la investigación
 
+library(renv)
+renv::activate()
+
+library(here)
 
 # Ruta correcta usando hee()
 ruta_datos <- here("data/processed", "clean_data.csv")

@@ -8,6 +8,11 @@ if (requireNamespace("renv", quietly = TRUE)) {
   renv::load()
 }
 
+library(renv)
+renv::activate()
+
+library(here)
+
 renv::init()
 # Simulación de datos sociodemográficos
 n <- 10000
