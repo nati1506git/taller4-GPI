@@ -8,7 +8,9 @@ library(here)
 
 cat("Iniciando proyecto...\n")
 
-source("src/01_simular_datos.R")
-source("src/02_graficos.R")
+source("scripts/01_generate_data.R")
+source("scripts/01_Limpieza.R")
+source("src/funcion_modelo.R")
+source("scripts/03_Modelito.R")
 
 cat("Proyecto ejecutado correctamente.\n")
